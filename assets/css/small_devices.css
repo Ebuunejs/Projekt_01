@@ -1,0 +1,72 @@
+/* Small devices */
+@media (max-width: 667px) {
+     /* Header  */
+     .wrapper{
+        width: 100%;
+        background-image: url('../img/Background.jpg');
+        background-repeat:no-repeat;
+    }
+
+    .logo {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 667px;
+        margin: 0 auto;
+    }
+
+    .mobile-menu {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .first-header{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+   /* Banner */
+   .banner-text-left-side{
+        height: 262px;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-content: stretch;
+    }
+
+    /* About Us */
+    section.about-us{
+        margin-top: 200px;
+        display:grid;
+        grid-template-columns: repeat(1, 4fr);
+        gap: 30px;
+        margin-bottom: 200px;
+    }
+    
+    section.about-us .box{
+        background-color: #f9f9fd;
+        width: 385px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+        
+    
+}

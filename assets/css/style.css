@@ -1,0 +1,9 @@
+/*  Autor:  Fadil Ibrahimi
+    Date:   14.08.2002
+    Thema:  HTML & CSS
+    Link:   https://preview.colorlib.com/theme/medino/
+    */
+@import url('master.css');
+@import url('large_devices.css');
+@import url('medium_devices.css');
+@import url('small_devices.css');

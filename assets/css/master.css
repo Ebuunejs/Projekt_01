@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&family=Ubuntu:wght@400;700&display=swap');
+
+          :root {
+        --body-background: linear-gradient(to bottom, #fff 11rem, #f0f9f9 17rem);
+        --black: #222222;
+        --gray: #777777;
+        --background-color:#f9f9fd;
+        --title-font: 'Ubuntu', sans-serif;
+        --text-font: 'Roboto', sans-serif;
+    }
+    
+    .mobile-menu {
+        display: none;
+    }
+
+    * {
+        font-family: var(--text-font);
+        color: var(--gray);
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    h4{
+       font-weight: normal;
+       color: var(--black);
+       font-family: var(--title-font);
+    }
+    
+    h1,h2,h3{
+        color: var(--black);
+        font-family: var(--title-font);
+    }
+
+    a,span ,p{
+        color: var(--gray);
+    }
+    
+    button{
+        color: white;
+        border: 0px;
+        width: 175px;
+        height: 42px;
+        background-image: linear-gradient(to right, #4f73fd, #44e5fd);
+    }
+
+    .background{
+        background-color: var(--background-color);
+    }
+
+    /*  Banner  */
+
+    h1{
+        font-size: 45px;
+        line-height: 54px;
+        font-family: var(--title-font);
+        margin: 0;
+    }
+
+    /* About Us  */
+
+    .about-us .box p{
+        text-align: center;
+    }
+    .about-us .box:hover{
+        background-color: #fff;
+        box-shadow: 0px 0px 22px 0px rgba(249,249,253,1);
+    }
+    
+     /*  Our specialish  */
+     .container-doc .doc-box *{
+        text-align: center;
+        width: 100%;
+    }
+
+    .doc-box{
+        background-color: white;
+    }
+    
+    .container-doc .doc-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 0px 2px 1px rgba(205, 201, 201, 0.75);
+    }
+
+    .doc-box h3{
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .doc-box h6{
+        margin: 0;
+        padding-top: 7px;
+        padding-bottom: 20px;
+    }
+
+    .doc-box p{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .doc-box .doctor-header{
+        background-color: #f9f9fd;
+    }
+
+    .doc-box:hover .doctor-header{
+        background-image: linear-gradient(to right, #4f73fd, #44e5fd);
+    }
+
+    .doc-box:hover h3, .doc-box:hover h6{
+        color: white;
+    }
+
+    .container-doc .social-media{
+        width: 60%;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        gap: 10px;
+    }
+
+    .container-doc .social-media li{
+        width: 30px;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+      /*  Hotline   */
+      .banner-2{
+        background: linear-gradient(to right,rgb(49, 116, 247,0.9), rgb(68, 229, 253,0.9)), url('../img/Background2.jpg');
+        background-repeat:no-repeat;
+    }
+
+    section.hotline h2,section.hotline h1,section.hotline p{
+        color: white;
+        text-align: center;
+    }
+
+    /* news */
+    section.news .title{
+        margin-top: 100px;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-date p{
+        color: white;
+    }
+    
+    .news .box-content a{
+        text-decoration: none;
+    }
+    .news .box-footer a{
+        text-decoration: none;
+    }
+
+    .news h3, .news a{
+        color: black;
+    }
+
+    /*  Footer  */
+
+    footer{
+        padding-top: 100px;
+        background-color: #12151f;
+    }
+
+    footer button,footer span,footer h3,footer p,footer a{
+        color: white;
+    }
+
+    footer .produkts a{
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    footer .copyright a{
+        list-style-type: none;
+        text-decoration: none; 
+    }
+
+    footer .social a{
+        padding: 15px;
+        background-color: white;
+    }
+
+    footer .social a:hover{
+        background-image: linear-gradient(to right, #4f73fd, #44e5fd);
+    }
+    
