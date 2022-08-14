@@ -195,6 +195,9 @@
         align-items: flex-start; 
     }
 
+    .news img{
+        width: 510px;
+    }
     .news .content{
         width: 100%;
         display: flex;
