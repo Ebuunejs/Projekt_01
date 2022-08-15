@@ -7,7 +7,8 @@
         --background-color:#f9f9fd;
         --title-font: 'Ubuntu', sans-serif;
         --text-font: 'Roboto', sans-serif;
-    }
+        --smart-width: 600px;
+    }  
     
     .mobile-menu {
         display: none;

@@ -1,15 +1,17 @@
 /* Small devices */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 640px) {
      /* Header  */
      .wrapper{
+        background-size: cover;
         background-image: url('../img/Background.jpg');
         background-repeat:no-repeat;
+        background-position: center;
     }
 
     .logo {
         left: 0;
         right: 0;
-        width: 100%;
+        width: 100vw;
     }
 
     body {
@@ -18,7 +20,7 @@
     }
     
     .container {
-        width: 540  ;
+        width: 100vw;
         margin: 0 auto;
     }
 
@@ -36,10 +38,19 @@
     .menu{
         display: none;
     }
+
    /* Banner */
+   .banner{
+        height: 740px;
+        width: 95vw;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
    .banner-text-left-side{
         height: 262px;
-        width: 690px;
+        width: 330px;
         display:flex;
         flex-direction: column;
         align-content: stretch;
@@ -56,7 +67,7 @@
     
     section.about-us .box{
         background-color: #f9f9fd;
-        width: 510px;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         justify-content:space-between;
@@ -70,14 +81,15 @@
     /* Main  */
 
     main .container-1{
-        width: 100%;
+        width: 95vw;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
     main img{
-        width: 690px;
+        padding-left: 10px;
+        width: 95vw;
     }
         
     main .container-2{
@@ -103,7 +115,7 @@
 
     .person{
         background-color: #f9f9fd; 
-        width: 100%;
+        width: 90vw;
         padding-bottom: 20px;
         margin-bottom: 100px;
         margin-right: 100px;
@@ -146,7 +158,7 @@
     .box-right form{
         background: linear-gradient(to left,rgb(49, 116, 247,0.9), rgb(68, 229, 253,0.9)), url('../img/Background3.jpg');
         background-repeat:no-repeat;
-        width: 100%;
+        width: 100vw;
         padding-top: 55px;
         padding-bottom: 55px;
         display: flex;
@@ -170,9 +182,14 @@
         text-align: center;
     }
 
+    .our-specialish .doc-box{
+        width: 95vw;
+        padding-left: 10px;
+    }
     .container-doc{
+        width: 100vw;
         display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(1, 4fr);
         gap: 30px;
         padding-bottom: 120px;
     }
@@ -189,17 +206,18 @@
 
     /* news */
     .news .box{
-        width: 510px;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         align-items: flex-start; 
     }
 
     .news img{
-        width: 510px;
+        width: 90vw;
     }
     .news .content{
-        width: 100%;
+        width: 90vw;
+        padding-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content:center;
@@ -215,6 +233,10 @@
         background-color: rgb(36,76,253);
     }
     /*  Footer  */
+    footer{
+        padding-left: 10px;
+    }
+    
     footer .produkts ul{
         margin-left:-40px;
         display: flex;
@@ -223,7 +245,7 @@
     }
 
     footer .newsletter input{
-        width: 250px;
+        width: 360px;
         height: 43px;
         border-radius: 5px;
     }
@@ -234,6 +256,25 @@
         background-image: linear-gradient(to right, #4f73fd, #44e5fd);
     }
 
+    footer .newsletter, footer form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 25px;
+    }
+
+    footer .image{
+        width:90vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    footer .social{
+        width:90vw;
+    }
+    
     footer .social ul{
         display: flex;
         flex-direction: row;
@@ -246,7 +287,8 @@
         margin-top: 50px;
         padding-bottom: 100px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
+        gap: 20px;
     }
 }
